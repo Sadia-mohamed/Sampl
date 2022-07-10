@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#6461d4 ;
+}
+.nav-bar{
+    background-color: #6461d4;
+    
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 30px;
+}
+   
+    
+
+.nav-bar h3{
+    color: white;
+	text-transform: uppercase;
+	font-size: 23px;
+    margin-left: 15px;
+    
+}
+
+.nav-bar ul li{
+    
+    display: inline-block;
+	margin-right: 15px;
+	font-size: 18px;
+    color: white;
+
+}
+.nav-bar ul li a{
+    text-decoration: none;
+	color: white;
+	padding: 5px 10px;
+}
+
+.nav-bar ul .btn{
+    background-color: #918ef9;
+    color: black;
+    font-size: 16px;
+    margin-left: 20px;
+    border-radius: 15px;
+    padding: 10px 30px;
+    cursor: pointer;
+    border: none ;
+    color: white;
+
+}
+
+.container{
+    width: 50%;
+     text-align: center;
+     margin-top: 150px;
+     margin-left: 25%;
+}
+.container h4{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+
+}
+.container .subtitle{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin-bottom: 70px;
+    color: white;
+    
+    
+}
+
+.btn-box .btn-left{
+    margin-top: 25px;
+     color: black;
+     font-size: 20px;
+     padding: 10px 30px;
+     background-color: #49d866;
+     border-radius: 20px;
+     margin-right: 5px;
+     cursor: pointer;
+     border: none;
+     color: white;
+     
+}
+.btn-box .btn1{
+margin-right: 30px;
+width: 232px;
+color: white;
+}
+
+.btn-box  .btn-rigth{
+    margin-top: 25px;
+    color: black;
+    font-size: 20px;
+    padding: 10px 30px;
+    background-color: #918ef9;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    width: 232px;
+    color: white;
+  
+    
+}
+
+.container .price{
+    margin-top: 10px;
+    margin-right: 100px;
+    color: white;
+    font-size: 14px;
+    position: relative;
+    right: 75px;
+}
+    
+.container .price span{
+    font-size: 20px;
+}
